@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnZEE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="welcome-screen">
+    <h1 class="welcome-heading">Your Journey Starts Here</h1>
+    <p class="welcome-text">Discover a new way to Learn with us.</p>
+    <img src="welcome-image.jpg" alt="Welcome Image" class="welcome-image">
+    <button class="get-started-btn">Get Started</button>
+  </section>
+  <section class="signup-form">
+    <h2>Sign Up</h2>
+    <form>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+  
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required>
+  
+      <label for="phone-number">Phone Number (Optional):</label>
+      <input type="tel" id="phone-number" name="phone-number">
+  
+      <label for="date-of-birth">Date of Birth (Optional):</label>
+      <input type="date" id="date-of-birth" name="date-of-birth">
+  
+      <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" required></textarea>
+
+    <button type="submit">Sign Up</button>
+</form>
+</section>
+    <br/>
+   
+ <h1>VERIFICATION SCREEN</h1>
+ <br/>
+ 
+
+    <section class="verification-screen">
+        <h2>Verify Your Email/Phone Number</h2>
+        <p>We've sent a verification code to your [email/phone number]. Please enter it below.</p>
+        <form>
+          <label for="verification-code">Verification Code:</label>
+          <input type="text" id="verification-code" name="verification-code" required>
+      
+          <button type="submit">Verify</button>
+          <p><a href="#" class="resend-code">Resend Code</a></p>
+      </section>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

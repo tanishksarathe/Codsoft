@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #212121; /* Dark background */
+  color: #fff; /* White text */
+}
+
+/* Header Styles */
+header {
+  background-color: #1a1a1a; /* Slightly darker background for header */
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subject-line {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.preheader-text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background-color: #1a1a1a; /* Match header background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero-section img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #e07734; /* Orange call to action button */
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Body Content Styles */
+.body-content {
+  padding: 20px;
+}
+
+.body-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.body-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.body-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.body-content li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1a1a1a; /* Match header background */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #fff; /* White social media icons */
+}
+
+.social-media a:hover {
+  color: #e07734; /* Orange hover color for social media icons */
+}
+
+/* Links */
+a {
+  color: #e07734; /* Orange link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b35820; /* Darker orange hover color for links */
+}

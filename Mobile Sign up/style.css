@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome-screen, .signup-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.welcome-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signup-form input, .signup-form select, .signup-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.verification-screen {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .verification-screen h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .verification-screen p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .verification-screen form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .verification-screen input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .verification-screen button {
+    background-color: #e07734;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .verification-screen a {
+    color: #e07734;
+    text-decoration: none;
+  }
